@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_Text number 2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="85dp"
+        android:autofillHints=""
+        android:hint="@string/numero_1"
+        android:inputType="number"
+        tools:ignore="DuplicateIds,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="344dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="13dp"
+        android:hint="Numero 1"
+        android:inputType="number"
+        android:textSize="34sp"
+        android:autofillHints=""
+        tools:ignore="DuplicateIds,HardcodedText,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/buttonCompare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="308dp"
+        android:text="@string/comparar"
+        android:textSize="34sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textViewComparisonResult"
+        android:layout_width="1264dp"
+        android:layout_height="119dp"
+        android:layout_below="@id/buttonCompare"
+        android:layout_marginTop="165dp"
+        android:text="@string/resultado_de_la_comparacion"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/Numero2"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:text="@string/numero2"
+        android:textSize="34sp"
+        android:autofillHints=""
+        tools:ignore="RelativeOverlap,RtlHardcoded" />
+
+</RelativeLayout>
+

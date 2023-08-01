@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppPractica1</string>
+    <string name="numero_1">Numero 1</string>
+    <string name="comparar">Comparar</string>
+    <string name="resultado_de_la_comparacion">Resultado de la comparacion</string>
+    <string name="numero2">numero2</string>
+</resources>
